@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - 🤔Abhijit</title>
+  <meta name="description" content="Portfolio of Abhijit Mondal - Full Stack Web Developer Based in Kolkata, IN">
+  <link rel="icon" href="assets/abhijit_avatar.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Orbs -->
+  <div class="bg-glow-container"></div>
+
+  <!-- Header & Navigation -->
+  <nav>
+    <a href="#top" class="logo-text">
+      Abhijit<span class="logo-dot"></span>
+    </a>
+    
+    <ul class="nav-links">
+      <li><a class="nav-link" href="#top" data-text="Home"><span>Emoh</span></a></li>
+      <li><a class="nav-link" href="#about" data-text="About me"><span>me Tuoba</span></a></li>
+      <li><a class="nav-link" href="#abilities" data-text="Abilities"><span>seitilibA</span></a></li>
+      <li><a class="nav-link" href="#work" data-text="Work"><span>krow</span></a></li>
+      <li><a class="nav-link" href="#contact" data-text="Contact"><span>tcatnoc</span></a></li>
+      <li><a class="nav-link" href="#github" data-text="Github"><span>buhtiG</span></a></li>
+    </ul>
+
+    <div>
+      <a href="#contact" class="nav-btn">
+        Contact
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="bounce-arrow">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Mobile Burger Menu button -->
+    <button class="mobile-menu-btn" aria-label="Toggle navigation">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile Sidebar Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <div class="mobile-drawer">
+    <a href="#top">Home</a>
+    <a href="#about">About me</a>
+    <a href="#abilities">Abilities</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+    <a href="#github">Github</a>
+  </div>
+
+  <!-- Hero Section -->
+  <header id="top" class="hero">
+    <div class="hero-avatar-container">
+      <img src="assets/abhijit_avatar.png" alt="Abhijit Mondal" class="hero-avatar">
+    </div>
+    
+    <h3 class="hero-tag">
+      Hi I'm Abhijit Mondal
+      <svg class="verify-badge" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM10 16.5L6 12.5L7.5 11L10 13.5L16.5 7L18 8.5L10 16.5Z" fill="#3b82f6"/>
+      </svg>
+    </h3>
+    
+    <h1 class="hero-title">Full Stack Web Developer Based in Kolkata, IN</h1>
+    <p class="hero-desc">In the era of AI and vibe coding, the only real power is thinking and creativity. That is what makes the difference.</p>
+    
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">
+        Contact me
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+      <a href="https://drive.google.com/file/d/18XZcHwNjOvSc2RXM12F4Q1bcSglXPhA3/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+        resume
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about reveal">
+    <div class="about-grid">
+      
+      <!-- Column 1: Bio -->
+      <div class="about-col">
+        <h2>Bio</h2>
+        <p>27 years old working as a Wealth Manager. Making the impossible possible by transitioning from sales to Software Engineer. Focused on building real products, smart systems, and maybe one day creating something as impactful as a great tech company.</p>
+        <p class="bold-italic">Currently based in Kolkata, India.</p>
+      </div>
+
+      <!-- Column 2: Personal Story -->
+      <div class="about-col">
+        <h2>Personal Story</h2>
+        <p>I started my career in the financial field, working as a Wealth Manager where I helped people solve their financial problems. Deep inside, I knew I wanted more. I wanted to build things, not just sell or advise. I started with Python and slowly moved into web development. Learning while working a full-time job was not easy, but I stayed consistent. My long-term dream is to shift my career from investment advisory to software engineer.</p>
+      </div>
+
+      <!-- Column 3: Connect -->
+      <div class="about-col">
+        <h2>Connect</h2>
+        <p>For business inquiries or just a friendly hello, email me at:<br><br>
+          <a class="email-link" href="mailto:abhijitmondal012@gmail.com">abhijitmondal012@gmail.com</a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Abilities Section -->
+  <section id="abilities" class="abilities reveal">
+    <h4 class="section-title">Abilities</h4>
+    
+    <div class="abilities-grid">
+      <div class="abilities-left">
+        <img src="assets/coding_illustration.png" alt="Abilities Coding Image" class="abilities-img">
+      </div>
+      
+      <div class="abilities-right">
+        <p class="abilities-intro">Build modern, scalable, and user-friendly web applications. I enjoy turning ideas into real-world digital solutions using clean and efficient code.</p>
+        
+        <ul class="ability-cards">
+          
+          <!-- Languages Card -->
+          <li class="ability-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            <h3>Languages</h3>
+            <p>HTML, CSS, JavaScript, React JS, Next JS, Python, SQL</p>
+          </li>
+          
+          <!-- Education Card -->
+          <li class="ability-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path>
+            </svg>
+            <h3>Education</h3>
+            <p>BA in Economics</p>
+          </li>
+          
+          <!-- Projects Card -->
+          <li class="ability-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+            </svg>
+            <h3>Projects</h3>
+            <p>Built more than 5 projects</p>
+          </li>
+
+        </ul>
+
+        <h4 class="tools-title">Tools I use</h4>
+        <ul class="tools-list">
+          <!-- VSCode SVG -->
+          <li class="tool-item" title="VS Code">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.984 6.742a.58.58 0 0 0-.256-.475l-4.148-3.08a.584.584 0 0 0-.71.01l-6.85 5.568L5.7 3.2a.584.584 0 0 0-.71-.008L.842 6.273a.58.58 0 0 0-.256.475v10.51c0 .2.1.383.256.475l4.148 3.08a.584.584 0 0 0 .71-.01l6.85-5.568 6.32 5.568a.584.584 0 0 0 .71.008l4.148-3.081a.58.58 0 0 0 .256-.475V6.742zM12 11.238l-4.464-3.626 4.464-3.626 4.464 3.626L12 11.238z"/>
+            </svg>
+          </li>
+          
+          <!-- MongoDB SVG -->
+          <li class="tool-item" title="MongoDB">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .002c-.3 0-.6.1-.8.3C8.4 2.8 4 8.7 4 13.5c0 4.4 3.6 8 8 8s8-3.6 8-8c0-4.8-4.4-10.7-7.2-13.2-.2-.2-.5-.3-.8-.3zm0 2.5c2 2 5.5 6.8 5.5 11 0 3-2.5 5.5-5.5 5.5s-5.5-2.5-5.5-5.5c0-4.2 3.5-9 5.5-11zm-1 3.5v9h2v-9h-2z"/>
+            </svg>
+          </li>
+          
+          <!-- Figma SVG -->
+          <li class="tool-item" title="Figma">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm-6-6c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4-4-1.79-4-4zm0 12c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4-4-1.79-4-4zm12-6c0-2.21-1.79-4-4-4s-4 1.79-4 4 1.79 4 4 4 4-1.79 4-4z"/>
+            </svg>
+          </li>
+          
+          <!-- Git SVG -->
+          <li class="tool-item" title="Git">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.546 10.93L13.067.452a1.493 1.493 0 0 0-2.11 0l-2.03 2.03 2.82 2.82a1.5 1.5 0 0 1 2.12 0l.47.47a1.5 1.5 0 0 1 .05 2.03L16.48 9.9l2.84 2.84a1.5 1.5 0 0 1 0 2.12l-2.03 2.03c-.45.45-1.1.5-1.63.15l-3.32-2.1-2.1 3.32c.35.53.3 1.18-.15 1.63l-2.03 2.03a1.493 1.493 0 0 1-2.11 0L.454 13.07a1.493 1.493 0 0 1 0-2.11L10.93.454a1.493 1.493 0 0 1 2.11 0L23.546 10.93a1.493 1.493 0 0 1 0 2.112zM6.3 15.6a1.5 1.5 0 1 0-2.12 2.12A1.5 1.5 0 0 0 6.3 15.6z"/>
+            </svg>
+          </li>
+          
+          <!-- Python SVG -->
+          <li class="tool-item" title="Python">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M11.91 0c-1.89 0-3.69.17-5.1.48C4.54.96 3.1 2.02 2.5 3.52c-.68 1.7-.58 3.58-.58 5.61v2.13h4.94V12.3H2.03V15.4c0 1.95-.14 3.73.55 5.25.64 1.43 2 2.37 4.09 2.77 1.62.31 3.51.58 5.26.58 1.92 0 3.78-.26 5.34-.58 1.94-.38 3.03-1.4 3.65-2.82.68-1.57.54-3.37.54-5.2v-2.07h-4.94v-1.02h4.94V9.21c0-2-.1-3.83-.75-5.46-.66-1.63-2.11-2.61-4.14-3.05C15.02.26 13.56 0 11.91 0zM8.86 3.15c.57 0 1.02.45 1.02 1.02s-.45 1.02-1.02 1.02c-.57 0-1.02-.45-1.02-1.02s.45-1.02 1.02-1.02zm6.27 15.65c.57 0 1.02.45 1.02 1.02s-.45 1.02-1.02 1.02c-.57 0-1.02-.45-1.02-1.02s.45-1.02 1.02-1.02z"/>
+            </svg>
+          </li>
+          
+          <!-- SQL / DB SVG -->
+          <li class="tool-item" title="SQL">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2c5.523 0 10 1.79 10 4s-4.477 4-10 4S2 8.21 2 6s4.477-4 10-4zm0 6c3.866 0 7-1.12 7-2.5S15.866 3 12 3 5 4.12 5 5.5 8.134 8 12 8zm0 4c5.523 0 10-1.79 10-4v3c0 2.21-4.477 4-10 4S2 13.21 2 11V8c0 2.21 4.477 4 10 4zm0 2.5c3.866 0 7-1.12 7-2.5V9.75c-1.373 1.026-4.013 1.75-7 1.75s-5.627-.724-7-1.75V12c0 1.38 3.134 2.5 7 2.5zm0 3.5c5.523 0 10-1.79 10-4v3c0 2.21-4.477 4-10 4S2 19.21 2 17v-3c0 2.21 4.477 4 10 4zm0 2.5c3.866 0 7-1.12 7-2.5v-2.25c-1.373 1.026-4.013 1.75-7 1.75s-5.627-.724-7-1.75V17c0 1.38 3.134 2.5 7 2.5z"/>
+            </svg>
+          </li>
+          
+          <!-- JS SVG -->
+          <li class="tool-item" title="JavaScript">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M0 0h24v24H0V0zm21.6 19.2c-1.2 0-1.92-.66-2.46-1.56l-1.92 1.14c.78 1.44 1.98 2.52 4.38 2.52 2.58 0 4.2-1.32 4.2-3.48v-8.88h-2.58v8.7c0 1.02-.6 1.56-1.62 1.56zm-8.82-3.24c0-2.34-1.56-3.66-3.78-4.68l-.72-.3c-1.14-.48-1.56-1.02-1.56-1.8 0-.9.78-1.44 1.86-1.44 1.14 0 1.8.48 2.28 1.32l2.04-1.2C10.08 6.06 8.7 5.04 6.84 5.04c-2.4 0-4.14 1.44-4.14 3.78 0 2.22 1.32 3.48 3.6 4.44l.72.3c1.38.6 1.92 1.14 1.92 2.04 0 1.02-.9 1.62-2.16 1.62-1.56 0-2.46-.78-3.06-1.98l-2.04 1.2c.9 1.92 2.58 2.94 5.16 2.94 2.76 0 4.32-1.5 4.32-3.96z"/>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Current Works Section (Sticky scroll trigger) -->
+  <section id="work" class="works">
+    <div class="works-intro reveal">
+      <h2 class="section-title">My Current Works</h2>
+      <p>Currently building full-stack web applications using Next.js and React, focusing on responsive design, performance, and modern UI/UX.</p>
+    </div>
+
+    <!-- Sticky Horizontal Scroll Wrapper -->
+    <div class="scroll-container-outer">
+      <div class="sticky-wrapper">
+        <div class="horizontal-track">
+          
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div>
+                <h3>Sign-Up Page</h3>
+                <p class="project-category">Web Architecture</p>
+              </div>
+              <a href="https://github.com/Quantabhi/SingUp-page" class="project-code-link" title="View Source Code" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="project-body">
+              <div class="tech-stat-list">
+                <!-- HTML -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>HTML</span><span>40%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 40%"></div></div>
+                </div>
+                <!-- CSS -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>CSS</span><span>35%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 35%"></div></div>
+                </div>
+                <!-- JavaScript -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>JavaScript</span><span>25%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 25%"></div></div>
+                </div>
+              </div>
+              
+              <div class="project-desc-box">
+                <div class="project-desc-dots">
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                </div>
+                <p>A modern sign-up page with form validation and responsive design.</p>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <span class="project-tag">Web Development</span>
+              <svg class="trending-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div>
+                <h3>GSAP Animation</h3>
+                <p class="project-category">Web Animation</p>
+              </div>
+              <a href="https://github.com/Quantabhi/Abhijit-GSAP" class="project-code-link" title="View Source Code" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="project-body">
+              <div class="tech-stat-list">
+                <!-- HTML -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>HTML</span><span>40%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 40%"></div></div>
+                </div>
+                <!-- CSS -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>CSS</span><span>35%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 35%"></div></div>
+                </div>
+                <!-- JavaScript -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>JavaScript</span><span>25%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 25%"></div></div>
+                </div>
+              </div>
+              
+              <div class="project-desc-box">
+                <div class="project-desc-dots">
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                </div>
+                <p>Creative micro-interactions and smooth scroll animations built with GreenSock (GSAP).</p>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <span class="project-tag">Web Animation</span>
+              <svg class="trending-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div>
+                <h3>Next.js Portfolio</h3>
+                <p class="project-category">Web App Architecture</p>
+              </div>
+              <a href="https://github.com/Quantabhi/Abhijit-portfolio-Next.JS" class="project-code-link" title="View Source Code" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="project-body">
+              <div class="tech-stat-list">
+                <!-- TypeScript -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>TypeScript</span><span>96%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 96%"></div></div>
+                </div>
+                <!-- CSS -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>CSS</span><span>2%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 2%"></div></div>
+                </div>
+                <!-- JavaScript -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>JavaScript</span><span>2%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 2%"></div></div>
+                </div>
+              </div>
+              
+              <div class="project-desc-box">
+                <div class="project-desc-dots">
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                </div>
+                <p>Fully typed responsive single page application constructed utilizing Next.js Framework.</p>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <span class="project-tag">Next.js Dev</span>
+              <svg class="trending-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Project Card 4 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div>
+                <h3>Weather App</h3>
+                <p class="project-category">Full Stack</p>
+              </div>
+              <a href="https://github.com/Quantabhi/Weather-app" class="project-code-link" title="View Source Code" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="project-body">
+              <div class="tech-stat-list">
+                <!-- JavaScript -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>JavaScript</span><span>58%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 58%"></div></div>
+                </div>
+                <!-- CSS -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>CSS</span><span>23%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 23%"></div></div>
+                </div>
+                <!-- HTML -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>HTML</span><span>19%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 19%"></div></div>
+                </div>
+              </div>
+              
+              <div class="project-desc-box">
+                <div class="project-desc-dots">
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                </div>
+                <p>A simple and responsive weather application built using the OpenWeather API.</p>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <span class="project-tag">Full Stack</span>
+              <svg class="trending-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Project Card 5 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div>
+                <h3>Video Landing Page</h3>
+                <p class="project-category">Web Animation</p>
+              </div>
+              <a href="https://github.com/Quantabhi/video-background-landing-page" class="project-code-link" title="View Source Code" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="project-body">
+              <div class="tech-stat-list">
+                <!-- HTML -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>HTML</span><span>54%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 54%"></div></div>
+                </div>
+                <!-- CSS -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>CSS</span><span>46%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 46%"></div></div>
+                </div>
+                <!-- JavaScript -->
+                <div class="tech-stat-item">
+                  <div class="tech-stat-info"><span>JavaScript</span><span>2%</span></div>
+                  <div class="tech-bar-bg"><div class="tech-bar-fill" style="width: 2%"></div></div>
+                </div>
+              </div>
+              
+              <div class="project-desc-box">
+                <div class="project-desc-dots">
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                  <span class="project-dot"></span>
+                </div>
+                <p>This is a simple demo landing page project featuring fullscreen responsive video background.</p>
+              </div>
+            </div>
+            
+            <div class="project-footer">
+              <span class="project-tag">Front End</span>
+              <svg class="trending-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get In Touch Section -->
+  <section id="contact" class="contact reveal">
+    <div class="contact-intro">
+      <h2 class="section-title">Get in touch</h2>
+      <p>I would love to hear from you. If you have any questions, comments, or feedback, please use the form below.</p>
+    </div>
+    
+    <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+      <div class="form-row">
+        <input type="text" placeholder="Enter your name" required class="form-input">
+        <input type="email" placeholder="Enter your email" required class="form-input">
+      </div>
+      <textarea rows="6" placeholder="Enter your message" required class="form-textarea"></textarea>
+      
+      <button type="submit" class="contact-submit">
+        Submit now
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+    </form>
+  </section>
+
+  <!-- GitHub Contributions Section -->
+  <section id="github" class="github-section reveal">
+    <h2 class="section-title">GitHub Contributions</h2>
+    <div class="github-chart-container">
+      <img class="github-chart" src="https://ghchart.rshah.org/Quantabhi" alt="GitHub contribution graph">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <h2 class="logo-text" style="justify-content: center; font-size: 2.2rem; margin-bottom: 1.5rem;">
+        Abhijit<span class="logo-dot" style="width: 12px; height: 12px;"></span>
+      </h2>
+      <div class="footer-email">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+        </svg>
+        <span>abhijitmondal012@gmail.com</span>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2026 Abhijit. All rights reserved.</p>
+      
+      <ul class="social-links">
+        <li class="social-link" title="GitHub">
+          <a href="https://github.com/Quantabhi" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.486 2 12.02c0 4.427 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.455-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.004.071 1.532 1.034 1.532 1.034.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.254-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.254-.446-1.276.098-2.66 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.384.202 2.406.1 2.66.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.694-4.566 4.943.359.31.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.481A10.025 10.025 0 0 0 22 12.02C22 6.486 17.523 2 12 2Z" clip-rule="evenodd"/>
+            </svg>
+          </a>
+        </li>
+        <li class="social-link social-link-instagram" title="Instagram">
+          <a href="https://www.instagram.com/mondalabhi23" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5ZM12 7.5A4.5 4.5 0 1 0 12 16.5 4.5 4.5 0 0 0 12 7.5Zm0 1.5A3 3 0 1 1 12 15a3 3 0 0 1 0-6Zm4.75-2.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" clip-rule="evenodd"/>
+            </svg>
+          </a>
+        </li>
+        <li class="social-link social-link-twitter" title="Twitter / X">
+          <a href="https://x.com/abhijitmondal22" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" d="M22 5.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.343 8.343 0 0 1-2.605.981A4.13 4.13 0 0 0 15.85 4a4.068 4.068 0 0 0-4.1 4.038c0 .31.035.618.105.919A11.705 11.705 0 0 1 3.4 4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 6.1 13.635a4.192 4.192 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 2 18.184 11.732 11.732 0 0 0 8.291 20 11.502 11.502 0 0 0 19.964 8.5c0-.177 0-.349-.012-.523A8.143 8.143 0 0 0 22 5.892Z" clip-rule="evenodd"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
